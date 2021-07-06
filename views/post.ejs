@@ -1,0 +1,18 @@
+<%- include("partials/header") -%>
+
+<section class="coloured-section">
+  <h1>Type Away...</h1>
+  <form action="/post" method="post">
+    <div class="form-group">
+      <label for="InputTitle">Title of Book</label>
+      <input type="text" name="titleBody" class="form-control" aria-describedby="emailHelp" size="80">
+    </div>
+    <div class="form-group">
+      <label for="InputReview">Review</label> <br>
+      <textarea name="reviewBody" rows="10" cols="80"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Post</button>
+  </form>
+</section>
+
+<%- include("partials/footer") -%>

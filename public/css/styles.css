@@ -1,0 +1,83 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.container-fluid {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #A6B1E1 !important;
+}
+
+.navbar-brand {
+  padding-left: 35px;
+  font-size: 30px;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 15px;
+}
+
+.items {
+  padding-right: 30px;
+}
+
+.coloured-section {
+  padding: 50px 50px 50px 50px;
+  background-color: #DCD6F7;
+}
+
+.intro {
+  padding: 200px 0 0 90px;
+}
+
+.image {
+  height: 500px;
+  width: 500px;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 770px;
+}
+
+.blogPost {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*
+colour palette
+  F4EEFF
+  DCD6F7
+  A6B1E1
+  424874
+*/
